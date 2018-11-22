@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/lightBlue"
+    android:alpha="0.7978"
+    android:layout_height="40dp">
+    <LinearLayout
+        android:background="@drawable/shape_round_search"
+        android:layout_width="296dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp">
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@mipmap/search_icon"
+            />
+        <TextView
+            android:layout_width="38.67dp"
+            android:layout_height="16.67dp"
+            android:text="@string/search_tip"
+            android:textColor="#FFA0A0A0"
+            android:layout_gravity="center"
+            android:textSize="12sp"
+            />
+        <EditText
+            android:background="@null"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="5.33dp"
+        android:src="@mipmap/search_more_icon"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="center"
+        />
+    <TextView
+        android:textColor="@color/lightBlue"
+        android:layout_gravity="center"
+        android:text="@string/cancel"
+        android:layout_marginLeft="10dp"
+        android:layout_width="53dp"
+        android:layout_height="28dp"/>
+    
+</LinearLayout>
